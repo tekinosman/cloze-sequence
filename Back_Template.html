@@ -1,0 +1,11 @@
+{{FrontSide}}
+
+<script>
+// Each cloze listens for a click, which triggers a toggle of the ```hidden-cloze``` class
+document.querySelectorAll('.cloze').forEach(cloze => cloze.onclick = () => cloze.classList.toggle('hidden-cloze'));
+</script>
+
+<style>
+  /* Restore full opacity after ```Show Answer``` is clicked */
+  #text {opacity: 1}
+</style>
