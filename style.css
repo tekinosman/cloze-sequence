@@ -1,0 +1,25 @@
+.card {
+  background: #fff;
+  color: #111;
+  font-family: 'Open Sans Light';
+  font-size: 20px;
+}
+
+.cloze {
+  color: #0074d9;
+  cursor: default;
+  user-select: none;
+}
+
+.hidden-cloze {
+  background: #eee;
+  color: #eee;
+  display: inline-block;
+  height: 4ch;
+  overflow: hidden;
+  width: 8ch;
+}
+
+#text {
+  opacity: .5
+}
