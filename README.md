@@ -1,6 +1,6 @@
 # Cloze Sequence
 
-An Anki template for memorization of lists, enumerations and procedures. Very similar to the builtin cloze functionality, with the difference being that:
+Simple Anki template for memorization of lists, enumerations and procedures. Very similar to the builtin cloze functionality, with the difference being that:
 
 - Only one card is created per list|enumeration|procedure.
 - Clozes are revealed by directly clicking on them.
