@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/100043659/170689900-395ab69d-960d-4d1e
 
 ### Perché viene usato @@@ come delimitatore?
 
-Perché è il delimitatore che ha meno collisioni e possibilità di essere usato per altri scopi.
+Perché è il delimitatore che ha (secondo le mie ricerche) meno collisioni e possibilità di essere usato per altri scopi.
 
 ### Perché un template e non un plugin?
 
