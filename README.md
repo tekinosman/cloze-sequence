@@ -22,7 +22,7 @@ Because it is the only delimiter that (I found) has the least clashes and chance
 
 ### Why a template and not a plugin?
 
-Because even though this would make a few things easier (such as adding a button to add a cloze item), plugins do frequently break when Anki is updated. Unfortunately I can't keep it updated for free with the limited time I have.
+Because even though this would make a few things easier (such as a button for adding a cloze item), plugins do frequently break when Anki is updated. Unfortunately I can't keep it updated for free with the limited time I have.
 
 ### Does it work on mobile?
 
