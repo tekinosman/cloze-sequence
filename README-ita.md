@@ -30,7 +30,7 @@ Sì.
 
 ## Contribuire
 
-Non credo ci sia così tanto da contribuire lato codice, ma la contribuzione è in ogni caso benvenuta. Tieni a mente che la creazione di issues è riservata a segnalazioni di bug, domande e suggerimenti, e che le richieste di feature sono prese in considerazione se rimangono nell'ambito dello scopo del template.
+Non credo ci sia così tanto da contribuire lato codice, ma la contribuzione è in ogni caso benvenuta. Tieni a mente che la creazione di issues è riservata alla segnalazione di bug, domande e suggerimenti, e che le richieste di feature sono prese in considerazione se rimangono nell'ambito dello scopo del template.
 
 ## Licenza
 
