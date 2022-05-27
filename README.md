@@ -27,3 +27,19 @@ Because even though this would make a few things easier (such as adding a button
 ### Does it work on mobile?
 
 Yes.
+
+## Contributing
+
+I don't think there's much to contribute code wise, but it's welcome. Keep in mind the following before doing so.
+
+### Submitting an issue
+
+Issue submissions are for bug reports, questions and suggestions.
+
+### Feature requests
+
+Feature requests might be taken into consideration if they don't stray out of the library's scope.
+
+## License
+
+Licensed under the [MIT](LICENSE) license.
