@@ -10,3 +10,4 @@ A minimal Anki template for the memorization of lists, enumerations and procedur
 
 ![How Cloze Sequence works](cloze-sequence_howto.gif)
 
+https://github.com/tekinosman/cloze-sequence/blob/main/cloze-sequence_howto.mov
