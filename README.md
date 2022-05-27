@@ -1,3 +1,5 @@
+[Leggi in italiano](https://github.com/tekinosman/cloze-sequence/blob/main/README-ita.md)
+
 # Cloze Sequence
 
 Simple Anki template for memorization of lists, enumerations and procedures. Very similar to the builtin cloze functionality, with the difference being that:
