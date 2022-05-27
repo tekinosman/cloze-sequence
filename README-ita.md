@@ -22,7 +22,7 @@ Perché è il delimitatore che ha (secondo le mie ricerche) meno collisioni e po
 
 ### Perché un template e non un plugin?
 
-Perché anche se ciò renderebbe alcune cose più facili (come per esempio un tasto per aggiungere un elemento cloze), gli aggiornamenti di Anki tendono a compromettere frequentemente il funzionamento di un plugin. Purtroppo ho pochissimo tempo da dedicare al mantenimento gratuito di un eventuale plugin.
+Perché anche se ciò renderebbe alcune cose più facili (come per esempio un tasto per aggiungere un elemento cloze), gli aggiornamenti di Anki tendono a compromettere frequentemente il funzionamento di un plugin. Purtroppo al momento ho pochissimo tempo da dedicare al mantenimento gratuito di un eventuale plugin.
 
 ### Funziona sui dispositivi mobile?
 
@@ -30,7 +30,7 @@ Sì.
 
 ## Contribuire
 
-Non credo ci sia poi così tanto da contribuire lato codice, ma è in ogni caso benvenuta. Tieni a mente che la creazione di issues è riservata a segnalazioni di bug, domande e suggerimenti, e che le richieste di feature sono prese in considerazione se rimangono nell'ambito dello scopo del template.
+Non credo ci sia così tanto da contribuire lato codice, ma la contribuzione è in ogni caso benvenuta. Tieni a mente che la creazione di issues è riservata a segnalazioni di bug, domande e suggerimenti, e che le richieste di feature sono prese in considerazione se rimangono nell'ambito dello scopo del template.
 
 I don't think there's much to contribute code wise, but it's welcome. Keep in mind the following before doing so.
 
