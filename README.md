@@ -2,7 +2,7 @@
 
 Simple Anki template for memorization of lists, enumerations and procedures. Very similar to the builtin cloze functionality, with the difference being that:
 
-- Only one card is created per cloze.
+- Only one card is created per cloze and thus all items are reviewed in the same session.
 - Cloze items are revealed (and hidden) by directly clicking on them.
 - There is no order of review. Can be sequential or totally random.
 
