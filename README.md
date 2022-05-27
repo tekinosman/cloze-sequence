@@ -38,7 +38,7 @@ Issue submissions are for bug reports, questions and suggestions.
 
 ### Feature requests
 
-Feature requests might be taken into consideration if they don't stray out of the library's scope.
+Feature requests might be taken into consideration if they don't stray out of the template's scope.
 
 ## License
 
