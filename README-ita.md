@@ -2,9 +2,9 @@
 
 Semplice template Anki per la memorizzazione di liste, enumerazioni e procedure. Molto simile per funzionalità al cloze presente di default, con la differenza che:
 
-- Viene creata una carta per cloze e tutti gli elementi ripetuti nella stessa sessione.
-- Gli elementi vengono mostrati (e nascosti) cliccando sugli stessi
-- Non c'è un ordine di ripetizione. Può essere sequenziale o casuale.
+- Viene creata una carta per cloze e tutti gli elementi vanno ripetuti nella stessa sessione.
+- Gli elementi vengono mostrati (e nascosti) cliccando sugli stessi.
+- Non c'è un ordine di ripetizione, che può essere sequenziale o casuale.
 
 ## Installazione
 
