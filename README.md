@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/100043659/170689900-395ab69d-960d-4d1e
 
 ### Why is @@@ used as a delimiter?
 
-Because it is the only delimiter that (I found) has the least clashes and chances of being used for other purposes.
+Because it is the delimiter that (I found) has the least clashes and chances of being used for other purposes.
 
 ### Why a template and not a plugin?
 
