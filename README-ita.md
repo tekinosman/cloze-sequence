@@ -32,8 +32,6 @@ Sì.
 
 Non credo ci sia così tanto da contribuire lato codice, ma la contribuzione è in ogni caso benvenuta. Tieni a mente che la creazione di issues è riservata a segnalazioni di bug, domande e suggerimenti, e che le richieste di feature sono prese in considerazione se rimangono nell'ambito dello scopo del template.
 
-I don't think there's much to contribute code wise, but it's welcome. Keep in mind the following before doing so.
-
 ## Licenza
 
 Codice sotto licenza [MIT](LICENSE).
