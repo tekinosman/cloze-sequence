@@ -3,7 +3,7 @@
 An Anki template for memorization of lists, enumerations and procedures. Very similar to the builtin cloze functionality, with the difference being that:
 
 - Only one card is created per list|enumeration|procedure.
-- Items are revealed by directly clicking on them.
+- Clozes are revealed by directly clicking on them.
 - There is no order of review. Can be sequential or totally random.
 
 ## Installation
@@ -22,7 +22,7 @@ Because it is the only delimiter that (I found) has the least clashes and chance
 
 ### Why a template and not a plugin?
 
-Because even though this would make a few things easier (such as adding a button to add list elements), plugins do frequently break when Anki is updated. Unfortunately I can't keep it updated for free with the limited time I have.
+Because even though this would make a few things easier (such as adding a button to add a cloze), plugins do frequently break when Anki is updated. Unfortunately I can't keep it updated for free with the limited time I have.
 
 ### Does it work on mobile?
 
