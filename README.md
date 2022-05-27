@@ -1,15 +1,29 @@
 # Cloze Sequence
 
-A minimal Anki template for the memorization of lists, enumerations and procedures. Very similar to the builtin cloze functionality, differing in that no new cards are created.
+An Anki template for memorization of lists, enumerations and procedures. Very similar to the builtin cloze functionality, with the difference being that:
 
-#### Installation
+- Only one card is created per list|enumeration|procedure.
+- Items are revealed by directly clicking on them.
+- There is no order of review. Can be sequential or totally random.
+
+## Installation
 
 https://user-images.githubusercontent.com/100043659/170690272-3dcffc9e-832e-4c9c-ae7f-569d5fe46043.mp4
 
-
-
-
-#### How it works
+## How it works
 
 https://user-images.githubusercontent.com/100043659/170689900-395ab69d-960d-4d1e-aefe-a8980dd5d334.mp4
 
+## FAQ
+
+### Why is @@@ used as a delimiter?
+
+Because it is the only delimiter that (I found) has the least clashes and chances of being used for other purposes.
+
+### Why a template and not a plugin?
+
+Because although this would make a few things easier (such as adding a button to add list elements), plugins do frequently break when Anki is updated. Unfortunately I can't keep it updated for free with the limited time I have.
+
+### Does it work on mobile?
+
+Yes.
