@@ -1,10 +1,10 @@
 # Cloze Sequence
 
-Semplice template Anki per la memorizzazione di liste, enumerazioni e procedure. Molto simile per funzionalità al cloze presente di default, con la differenza che:
+Template Anki per la memorizzazione di liste, enumerazioni e procedure. Molto simile per funzionalità al cloze presente di default, con la differenza che:
 
-- Viene creata una carta per cloze e tutti gli elementi vanno ripetuti nella stessa sessione.
-- Gli elementi vengono mostrati (e nascosti) cliccando sugli stessi.
-- Non c'è un ordine di ripetizione, che può essere sequenziale o casuale.
+- Viene creata una carta per cloze e tutti gli elementi vengono ripetuti nella stessa sessione.
+- La visibilità degli elementi varia cliccando sugli stessi.
+- Non c'è un ordine particolare di ripetizione, che può essere sequenziale o casuale.
 
 ## Installazione
 
@@ -22,7 +22,7 @@ Perché è il delimitatore che ha (secondo le mie ricerche) meno collisioni e po
 
 ### Perché un template e non un plugin?
 
-Perché anche se ciò renderebbe alcune cose più facili (come per esempio un tasto per aggiungere un elemento cloze), gli aggiornamenti di Anki tendono a compromettere frequentemente il funzionamento di un plugin. Purtroppo al momento ho pochissimo tempo da dedicare al mantenimento gratuito di un eventuale plugin.
+Perché anche se ciò renderebbe alcune cose più facili, gli aggiornamenti di Anki tendono a compromettere frequentemente il funzionamento di un plugin. Purtroppo al momento ho pochissimo tempo da dedicare al mantenimento di un eventuale plugin.
 
 ### Funziona sui dispositivi mobile?
 
@@ -30,7 +30,7 @@ Sì.
 
 ## Contribuire
 
-Non credo ci sia così tanto da contribuire lato codice, ma la contribuzione è in ogni caso benvenuta. Tieni a mente che la creazione di issues è riservata alla segnalazione di bug, domande e suggerimenti, e che le richieste di feature sono prese in considerazione se rimangono nell'ambito dello scopo del template.
+Non credo ci sia così tanto da contribuire lato codice, ma la contribuzione è in ogni caso benvenuta. Tieni a mente che la creazione di issues è riservata alla segnalazione di bug, domande e suggerimenti, e che le richieste di feature sono prese in considerazione se restano nell'ambito dello scopo del template.
 
 ## Licenza
 
