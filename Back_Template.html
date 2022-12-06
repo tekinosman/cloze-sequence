@@ -2,12 +2,12 @@
 
 <script>
 // Toggle the ```hidden-cloze``` class when a cloze is clicked
-text.addEventListener("click", (event) => {
-	let node = event.target;
+text.addEventListener("click", event => {
+    let node = event.target;
 
-	if (node.className.includes("cloze")) {
-		node.classList.toggle("hidden-cloze");
-	}
+    if (node.className.includes("cloze")) {
+        node.classList.toggle("hidden-cloze");
+    }
 });
 </script>
 

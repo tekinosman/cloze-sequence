@@ -3,8 +3,41 @@
 <div id='text'>{{Text}}</div>
 
 <script>
+/*
+ * Configuration
+ */
+delimiter = {
+    START: "@@@", // HTML tags should be written
+    END: "@@@", // in uppercase letters
+    type: "token" // Use "tag" if the cloze is inside an HTML element, else "token"
+};
+
+
+
+
 text = document.querySelector('#text');
 
-// Remove the `@@@` delimiter and put the content inside a span.
-text.innerHTML = text.innerHTML.replace(/@@@(.+?)@@@/g, '<span class="cloze hidden-cloze">$1</span>');
+
+// Escape RegEx special tokens
+function escapeRegEx(str) {
+    return str.replace(/([\\^$.|?*+()\[\]{}])/g, "\\$1");
+}
+
+
+if (delimiter.type == "tag") {
+
+    document.querySelectorAll(delimiter.START).forEach(
+        cloze => {
+            cloze.classList.add(...["cloze", "hidden-cloze"]);
+        }
+    )
+
+} else {
+    delimiter.START = escapeRegEx(delimiter.START);
+    delimiter.END = escapeRegEx(delimiter.END);
+
+    // Remove the delimiters and put the content inside a span.
+    let re = new RegExp(`${delimiter.START}(.+?)${delimiter.END}`, "g");
+    text.innerHTML = text.innerHTML.replace(re, '<span class="cloze hidden-cloze">$1</span>');
+}
 </script>
