@@ -36,7 +36,7 @@ if (delimiter.type == "tag") {
     delimiter.START = escapeRegEx(delimiter.START);
     delimiter.END = escapeRegEx(delimiter.END);
 
-    // Remove the delimiters and put the content inside a span.
+    // Remove delimiters and put the content inside a span element.
     let re = new RegExp(`${delimiter.START}(.+?)${delimiter.END}`, "g");
     text.innerHTML = text.innerHTML.replace(re, '<span class="cloze hidden-cloze">$1</span>');
 }
