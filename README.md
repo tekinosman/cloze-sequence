@@ -1,30 +1,45 @@
-[Leggi in italiano](https://github.com/tekinosman/cloze-sequence/blob/main/README-ita.md)
-
 # Cloze Sequence
 
-Anki template for memorization of lists, enumerations and procedures. Very similar to the builtin cloze functionality, with the difference being that:
+Anki template for memorization of lists/enumerations/procedures, with the main features being:
 
-- Only one card is created per cloze and thus all items are reviewed in the same session.
-- Cloze items are toggled by directly clicking on them.
+- Cloze items are:
+  - reviewed in the same session
+  - toggled by directly clicking on them
 - There is no order of review. Can be sequential or random.
+- Custom delimiters.
 
 ## Installation
 
-https://user-images.githubusercontent.com/100043659/170690272-3dcffc9e-832e-4c9c-ae7f-569d5fe46043.mp4
+Download the [cloze-sequence package](cloze-sequence.apkg) and import it on Anki (*File > Import...* and select *Packaged Anki Deck/Collection* as the filetype). This will import the template/note type along with a sample card inside the Default deck.
 
-## How it works
+## How to use
 
-https://user-images.githubusercontent.com/100043659/170689900-395ab69d-960d-4d1e-aefe-a8980dd5d334.mp4
+By default, a cloze is created by delimiting some text with @@@three at signs@@@, which can be changed by clicking on the Cards... button inside the editing screen, and editing the START, END, token values like this:
+
+```JavaScript
+    delimiter = {
+        START: "{{", // To use {{}}
+        END: "}}",    // as
+        type: "token"   // delimiters
+    }
+```
+    
+or this:
+
+```JavaScript
+    delimiter = {
+        START: "b", // To use <b></b>
+        END: "b",    // HTML tags
+        type: "tag"   // as delimiters
+    }
+```
+When reviewing, clozes get toggled by clicking/tapping on them.
 
 ## FAQ
 
-### Why is @@@ used as a delimiter?
+### Why is @@@ used as the default delimiter?
 
-Because it is the delimiter that (I found) has the least clashes and chances of being used for other purposes.
-
-### Why a template and not a plugin?
-
-Because even though this would make a few things easier, plugins do frequently break when Anki is updated. Unfortunately I can't keep it updated with the limited time I have.
+Because it is the delimiter with the least chances of being used for other purposes.
 
 ### Does it work on mobile?
 
@@ -32,7 +47,7 @@ Yes.
 
 ## Contributing
 
-I don't think there's much to contribute code wise, but any contribution is welcome. Keep in mind the following before doing so.
+I'm not sure there's much to contribute code wise, but it's welcome nonetheless. Keep in mind the following before doing so.
 
 ### Submitting an issue
 
