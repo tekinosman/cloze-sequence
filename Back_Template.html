@@ -1,8 +1,14 @@
 {{FrontSide}}
 
 <script>
-// Each cloze listens for a click, which toggles the ```hidden-cloze``` class
-document.querySelectorAll('.cloze').forEach(cloze => cloze.onclick = () => cloze.classList.toggle('hidden-cloze'));
+// Toggle the ```hidden-cloze``` class when a cloze is clicked
+text.addEventListener("click", (event) => {
+	let node = event.target;
+
+	if (node.className.includes("cloze")) {
+		node.classList.toggle("hidden-cloze");
+	}
+});
 </script>
 
 <style>

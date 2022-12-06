@@ -3,8 +3,8 @@
 <div id='text'>{{Text}}</div>
 
 <script>
-// Match everything enclosed by `@@@` and put it back in without the delimiters.
-document.getElementById('text').innerHTML = document.getElementById('text').innerHTML.replace(/(@@@.*?@@@)/g, match => {
-    return `<span class='cloze hidden-cloze'>${match.substring(3, match.length - 3)}</span>`
-});
+text = document.querySelector('#text');
+
+// Remove the `@@@` delimiter and put the content inside a span.
+text.innerHTML = text.innerHTML.replace(/@@@(.+?)@@@/g, '<span class="cloze hidden-cloze">$1</span>');
 </script>
