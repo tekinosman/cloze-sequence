@@ -25,7 +25,7 @@ This will import the template/note type along with a sample card inside the Defa
 
 ## How to use
 
-By default, a cloze is created by delimiting some text with @@@three at signs@@@, which can be changed by clicking on the Cards... button inside the editing screen, and editing the START, END, token values like this:
+By default, a cloze is created by delimiting some text with @@@three at signs@@@, which can be changed by clicking on the Cards... button inside the editing screen, and editing the START/END/type values like this:
 
 ```JavaScript
     delimiter = {
@@ -51,10 +51,6 @@ When reviewing, clozes get toggled by clicking/tapping on them.
 ### Why is @@@ used as the default delimiter?
 
 Because it is the delimiter with the least chances of being used for other purposes.
-
-### Does it work on mobile?
-
-Yes.
 
 ## Contributing
 
