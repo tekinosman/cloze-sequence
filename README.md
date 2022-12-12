@@ -1,12 +1,12 @@
 # Cloze Sequence
 
-Anki template for memorization of lists/enumerations/procedures, with the main features being:
+Anki template for memorization of lists, enumerations and procedures.
 
-- Cloze items are:
-  - reviewed in the same session
-  - toggled by directly clicking on them
-- There is no order of review. Can be sequential or random.
-- Custom delimiters.
+## Features
+
+- Cloze items are reviewed in the same session and can be toggled by directly clicking on them.
+- The review order can be sequential or random.
+- Support for custom delimiters.
 
 ## Installation
 
