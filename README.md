@@ -10,7 +10,7 @@ Anki template for reviewing lists, enumerations and procedures.
 
 ## Installation
 
-Download the [cloze-sequence package](https://github.com/tekinosman/cloze-sequence/raw/main/cloze-sequence.apkg) and import it to Anki, then on desktop, go to `File > Import...` and select *Packaged Anki Deck/Collection* as the filetype. On mobile (Ankidroid), tap on the three dots, then on *Import* and select the cloze-sequence package.
+Download the [cloze-sequence package](https://github.com/tekinosman/cloze-sequence/raw/main/cloze-sequence.apkg) and import it to Anki, then on desktop, go to *File > Import...* and select *Packaged Anki Deck/Collection* as the filetype. On mobile (Ankidroid), tap on the three dots, then on *Import* and select the cloze-sequence package.
 
 This will import the template/note type along with a sample card inside the Default deck.
 
